@@ -1,0 +1,1 @@
+Um sistema de ficheiros é um método que o respetivo sistema operativo usa para organizar os seus dados.
