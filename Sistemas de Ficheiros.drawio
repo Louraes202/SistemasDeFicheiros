@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T16:24:36.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3Y-Q69dOJUVyrMiKMN6K" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T16:30:02.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="fTe7pS5-KI1S7SwOB8F6" version="17.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2130" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Windows" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Windows" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontFamily=Lucida Console;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-450" y="920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kiM5pF3jl9HwU2nnS3uD-1" value="MacOS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="kiM5pF3jl9HwU2nnS3uD-1" value="MacOS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Lucida Console;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-20" y="940" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kiM5pF3jl9HwU2nnS3uD-3" value="Linux" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="kiM5pF3jl9HwU2nnS3uD-3" value="Linux" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;glass=0;strokeWidth=1;shadow=0;fontFamily=Lucida Console;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="580" y="970" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UsUM8yckjeye1DmzhqTT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiM5pF3jl9HwU2nnS3uD-6" target="kiM5pF3jl9HwU2nnS3uD-71">
@@ -22,7 +22,16 @@
         <mxCell id="UsUM8yckjeye1DmzhqTT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiM5pF3jl9HwU2nnS3uD-6" target="UsUM8yckjeye1DmzhqTT-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiM5pF3jl9HwU2nnS3uD-6" value="&lt;b&gt;Sistemas de Ficheiros&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="UsUM8yckjeye1DmzhqTT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=21;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiM5pF3jl9HwU2nnS3uD-6" target="UsUM8yckjeye1DmzhqTT-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="490" />
+              <mxPoint x="-50" y="560" />
+              <mxPoint x="-615" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kiM5pF3jl9HwU2nnS3uD-6" value="&lt;b&gt;Sistemas de Ficheiros&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Verdana;fillColor=#ffff88;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kiM5pF3jl9HwU2nnS3uD-10" value="&lt;span&gt;Um sistema de ficheiros é um método que o respetivo sistema operativo usa para organizar os seus dados.&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -89,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UsUM8yckjeye1DmzhqTT-20" value="exFAT" style="swimlane;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="440" width="230" height="170" as="geometry" />
+          <mxGeometry x="-730" y="585" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UsUM8yckjeye1DmzhqTT-21" value="" style="whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="UsUM8yckjeye1DmzhqTT-20">
           <mxGeometry y="20" width="230" height="150" as="geometry" />
