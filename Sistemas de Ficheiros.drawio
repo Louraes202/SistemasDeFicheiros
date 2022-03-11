@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T15:56:08.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="CvYQZtJq_La1QF5Td20P" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T16:10:55.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Zi0BrYri28eoPZUcSB-9" version="17.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="782" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -37,11 +37,23 @@
         <mxCell id="kiM5pF3jl9HwU2nnS3uD-61" value="Um sistema de ficheiros organiza-se como uma biblioteca, sendo o sistema operativo o bibliotecário, que vai distribuir os dados pelos espaços vazios do disco. Existem vários formatos diferentes de sistemas de ficheiros, porém nunca podem existir dois sistemas diferentes numa partição." style="whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="30" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="kiM5pF3jl9HwU2nnS3uD-71" value="FAT32" style="swimlane;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="60" y="240" width="200" height="110" as="geometry" />
+        <mxCell id="kiM5pF3jl9HwU2nnS3uD-71" value="FAT" style="swimlane;fontFamily=Verdana;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="280" width="230" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="kiM5pF3jl9HwU2nnS3uD-72" value="" style="whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="kiM5pF3jl9HwU2nnS3uD-71" vertex="1">
-          <mxGeometry y="20" width="200" height="90" as="geometry" />
+        <mxCell id="kiM5pF3jl9HwU2nnS3uD-72" value="File Allocation Table é um dos mais antigos sistema de ficheiros que está presente na maioria dos computadores pessoais. Este sistema possui as versões FAT8, FAT12, FAT16 e FAT32. O número após o FAT indica a quantidade de bits utilizada na alocação dos ficheiros." style="whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="kiM5pF3jl9HwU2nnS3uD-71" vertex="1">
+          <mxGeometry y="20" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UsUM8yckjeye1DmzhqTT-0" value="exFAT" style="swimlane;fontFamily=Verdana;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="280" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UsUM8yckjeye1DmzhqTT-1" value="" style="whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="UsUM8yckjeye1DmzhqTT-0">
+          <mxGeometry y="20" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UsUM8yckjeye1DmzhqTT-2" value="NFTS" style="swimlane;fontFamily=Verdana;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-200" y="90" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UsUM8yckjeye1DmzhqTT-3" value="" style="whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="UsUM8yckjeye1DmzhqTT-2">
+          <mxGeometry y="20" width="230" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
